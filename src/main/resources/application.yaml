@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: RideShare
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/rideshare
+      database: rideshare
+
+jwt:
+  secret: mySecretKeyForJWTTokenGenerationAndValidation12345
+  expiration: 86400000
+
+server:
+  port: 8081
